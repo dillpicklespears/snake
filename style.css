@@ -1,56 +1,6 @@
-html, body {
-    background-color: darkslategrey;
-    height: 100%; 
-    margin: 0px; 
-    padding: 0px; 
-}
-
-#canvas {
+html, body
+{
+    margin: 0;
     padding: 0; 
-    margin: auto; 
-    display: block; 
-    top: 50%; 
-    transform: translate(0, 3%); 
-    bottom: 0; 
-    left: 0; 
-    right: 0; 
-    border-radius: 15px;
-}
-
-#mainCanvas {
-    display: block; 
-    margin: auto; 
-    width: 53%; 
-    height:auto; 
-    background-color: black;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#mainInfo {
-    display: flex; 
-    margin: auto; 
-    width: 53%; 
-    height: 13%; 
-    background-color: black;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-#score {
-    margin-right: 5%; 
-    margin-left: 65%; 
-    margin-top: 6%; 
-    text-align: center;
-    color: white; 
-    height: 35%; 
-    width: 15%; 
-}
-
-#restart {
-    height: 35%; 
-    width: 15%; 
-    margin-left: 5%; 
-    margin-top: 5%; 
-    border-radius: 15px;
+    overflow: hidden; 
 }
